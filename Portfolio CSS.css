@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 3px solid rgba(0, 103, 103, 0.7);
+  font-size: 30px;
+  /* border: 1px solid black; */
+
+  /* background-color: rgb(49, 184, 184); */
+}
+
+.banner {
+  width: 50%;
+  margin: auto;
+  /* border: 1px solid black; */
+  /* background-color: rgba(0, 103, 103, 0.7); */
+  /* border-width: 10px; */
+  /* border-color: brown; */
+  /* border-radius: 20px; */
+}
+
+body {
+  background-color: rgb(7, 244, 244);
+  width: 90%;
+  margin: auto;
+}
+
+.sheet {
+  background-color: rgb(220, 247, 250);
+  height: 90%;
+  padding-top: 2rem;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.bio {
+ padding: 2rem;
+ font-size: 20px;
+}
