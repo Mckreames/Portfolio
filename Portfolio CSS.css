@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 header {
@@ -13,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid white;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav {
   /**text-decoration: underline;**/
   /* text-decoration-color: #df8f16; */
   /* box-shadow: 0 5px 3px -3px rgb(202, 200, 200); */
+  border: 1px solid white;
 }
 
 nav > ul {
@@ -42,8 +44,10 @@ nav > ul {
   margin-top: 0;
   margin-block: 0;
   height: 100%;
+  /* border: 1px solid white; */
 }
 
+/*
 nav > ul > li {
   padding-bottom: 0;
   display: block;
@@ -74,7 +78,7 @@ nav > ul > li:hover {
     padding: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-}
+} */
 
 /* .nav-logo {
 
@@ -130,7 +134,7 @@ body {
   object-fit: cover;
 }
 
-.bio {
+.id {
  padding: 2rem;
  font-size: 20px;
  text-align: left;
