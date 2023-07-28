@@ -67,9 +67,9 @@ border-bottom: 2px solid #88db8d;
   padding: 0;
   margin: 0;
 }
-  
+
 nav > ul > li:hover {
-    /**background-color: #df8f16;**/
+    /*background-color: #df8f16;*/
     color: #df8f16;
     cursor: pointer;
     text-decoration: underline;
@@ -78,7 +78,8 @@ nav > ul > li:hover {
     padding: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-} */
+}
+*/
 
 /* .nav-logo {
 
