@@ -238,11 +238,21 @@ body {
   font-size: 1.5rem;
 }
 
-.portfolio {
+.project {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
   background-color: black;
+}
+
+.pr-screenshot {
+  width: 30%;
+  height: auto;
+  border-radius: 5%
+}
+
+.pr-screenshot:hover {
+  
 }
 
 .contact {
