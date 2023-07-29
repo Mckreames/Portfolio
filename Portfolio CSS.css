@@ -8,6 +8,14 @@
   /* border: 1px solid white; */
 }
 
+.right {
+  float: right;
+}
+
+.left {
+ float: left;
+}
+
 a {
   color: rgb(245, 244, 244);
   text-decoration: none;
@@ -157,7 +165,6 @@ body {
 }
 
 .me {
-  float: left;
   height: 40%;
   width: 40%;
   /* padding: 3rem; */
@@ -227,22 +234,25 @@ body {
 .p-f-left {
   width: 48%;
   padding-top: 2rem;
-  float: left;
   font-size: 1.5rem;
 }
 
 .p-f-right {
   width: 48%;
   padding-top: 2rem;
-  float: right;
   font-size: 1.5rem;
 }
 
 .project {
   padding-top: 5%;
   padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  /* width: 100%; */
+  overflow: hidden;
   text-align: center;
   background-color: black;
+  border: solid 1px white;
 }
 
 .pr-screenshot {
