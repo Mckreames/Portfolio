@@ -95,7 +95,7 @@ nav > ul > li:hover {
 .nav-logo {
   height: 4rem;
   width: auto;
-  margin-right: 60%;
+  margin-right: 40%;
   /* border: solid 1px white; */
 }
 
@@ -145,8 +145,8 @@ body {
   height: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   align-items: center;
   /* border-radius: 15px; */
   margin-top: 1rem;
@@ -248,11 +248,19 @@ body {
 .pr-screenshot {
   width: 30%;
   height: auto;
-  border-radius: 5%
+  margin-bottom: 1rem;
+  border-radius: 5%;
+  border: solid 3px white;
 }
 
 .pr-screenshot:hover {
   
+}
+
+.pr-screenshot-text {
+  padding-bottom: 1rem;
+  color: goldenrod;
+  font-weight: bold;
 }
 
 .contact {
@@ -277,7 +285,9 @@ body {
 }
 
 .contact-sheet > p {
+  width: 50%;
   margin-top: -3rem;
+  margin-left: 30%;
   padding-bottom: 5rem;
   padding-left: 3rem;
   color: goldenrod;
@@ -286,7 +296,7 @@ body {
 }
 
 .icon1 {
-  margin-left: 33rem;
+  margin-left: 32.5%;
   /* background-color: grey; */
   display: block;
   height: 10%;
@@ -301,7 +311,7 @@ body {
 }
 
 .icon2 {
-  margin-left: 32rem;
+  margin-left: 32%;
   /* background-color: grey; */
   display: block;
   height: 10%;
@@ -311,5 +321,4 @@ body {
   /* object-fit: cover; */
   /* border-radius: 20%; */
   /* border: solid 1px white; */
-
 }
