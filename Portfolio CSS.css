@@ -55,11 +55,11 @@ nav > ul {
   width: 90%;
   display: flex;
   justify-content: right;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   padding-inline-start: 0;
-  margin-bottom: auto;
   padding-right: 10%;
+  margin-bottom: auto;
   margin-block: 0;
   /* padding: 0.7; */
   height: 4rem;
@@ -70,10 +70,12 @@ nav > ul {
 nav > ul > li {
   /* padding-bottom: 0; */
   padding-left: 1rem;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   display: block;
   color: #919692;
   font-weight: bold;
+  /* border: 1px solid white; */
+
 }
 
 .nav-link {
