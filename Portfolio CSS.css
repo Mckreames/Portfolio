@@ -257,7 +257,7 @@ body {
   overflow: hidden;
   text-align: center;
   background-color: black;
-  border: solid 1px white;
+  /* border: solid 1px white; */
 }
 
 .pr-screenshot {
