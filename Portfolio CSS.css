@@ -249,7 +249,7 @@ body {
 }
 
 .project {
-  /* display: grid; */
+  display: grid;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 20%;
