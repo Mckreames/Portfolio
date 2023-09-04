@@ -204,6 +204,8 @@ h1 {
   font-size: 1.5rem;
 }
 
+
+/* Project section */
 .project {
   display: grid;
   /* width: 100%; */
@@ -216,7 +218,7 @@ h1 {
   overflow: hidden;
   text-align: center;
   background-color: black;
-  border: solid 1px white;
+  /* border: solid 1px white; */
 }
 
 .pro {
@@ -224,11 +226,11 @@ h1 {
 }
 
 .pr-screenshot {
-  width: 60%;
+  width: 100%;
   /* height: auto; */
   margin-bottom: 1rem;
   border-radius: 5%;
-  border: solid 3px white;
+  /* border: solid 3px white; */
 }
 
 .pr-screenshot:hover {
