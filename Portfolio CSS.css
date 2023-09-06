@@ -48,6 +48,7 @@ header {
   border-radius: 10px;
   position: fixed;
   background-color:rgba(31, 31, 31, 0.5);
+  z-index: 1000;
 }
 
 nav {
@@ -234,24 +235,7 @@ h1 {
   grid-column: span 2;
 }
 
-.pr-screenshot-overlay {
-  position: absolute;
-  left: 28%;
-  top: 5%;
-  color: black;
-
-}
-
-.overlay-text {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  font-size: 3rem;
-  /* top: 25%; */
-  color: white;
-}
-
-.overlay-icon-L {
+.overlay-icons {
   position: absolute;
   top: 33%;
   left: 35%;
@@ -260,22 +244,34 @@ h1 {
   display: none;
 }
 
-.overlay-icon-R {
+.pr-screenshot:hover .overlay-icons {
+  display: block;
+  z-index: 1001;
+}
+
+.overlay-icon-L:hover, 
+.overlay-icon-R:hover {
+  cursor: pointer;
+  background: radial-gradient(rgb(202, 202, 202) 70%, transparent 71%);
+}
+
+/* .overlay-icon-L {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  width: 5rem;
+  background: radial-gradient(white 70%, transparent 71%);
+  display: none;
+} */
+
+/* .overlay-icon-R {
   position: absolute;
   top: 33%;
   left: 55%;
   width: 5rem;
   background: radial-gradient(white 70%, transparent 71%);
   display: none;
-}
-
-.overlay-icon-L:hover {
-  cursor: pointer;
-}
-
-.overlay-icon-R:hover {
-  cursor: pointer;
-}
+} */
 
 .pr-screenshot {
   width: 100%;
@@ -290,19 +286,12 @@ h1 {
   opacity: 0.5;
 }
 
-.pr-screenshot:hover .overlay-icon-L {
-  display: block;
-}
-
-.pr-screenshot:hover .overlay-icon-L {
-  display: block;
-}
-
 .pr-screenshot-text {
   padding-bottom: 1rem;
   color: goldenrod;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .pr1-ss-div {
@@ -313,26 +302,18 @@ h1 {
   border: solid 5px goldenrod; */
 }
 
-.pr1-ss-div :hover {
-  
-}
-
-.pr2-ss-div {
-  position: relative;
-}
-
-.pr3-ss-div {
-  position: relative;
-}
-
-.pr4-ss-div {
-  position: relative;
-}
-
 .pr5-ss-div {
-  position: relative;
-    grid-column: span 2;
+  grid-column: span 2;
   width: 50%;
+}
+
+.pr1-ss-div:hover + .overlay-icons, 
+.pr2-ss-div:hover + .overlay-icons, 
+.pr3-ss-div:hover + .overlay-icons, 
+.pr4-ss-div:hover + .overlay-icons, 
+.pr5-ss-div:hover + .overlay-icons {
+  display: block;
+  z-index: 999;
 }
 
 /* Contact */
