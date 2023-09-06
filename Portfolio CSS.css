@@ -218,7 +218,7 @@ h1 {
   column-gap: 10rem; 
   overflow: hidden;
   text-align: center;
-  /* background-color: black; */
+  background-color: black;
   /* border: solid 1px white; */
 }
 
@@ -257,6 +257,7 @@ h1 {
   left: 35%;
   width: 5rem;
   background: radial-gradient(white 70%, transparent 71%);
+  display: none;
 }
 
 .overlay-icon-R {
@@ -265,6 +266,15 @@ h1 {
   left: 55%;
   width: 5rem;
   background: radial-gradient(white 70%, transparent 71%);
+  display: none;
+}
+
+.overlay-icon-L:hover {
+  cursor: pointer;
+}
+
+.overlay-icon-R:hover {
+  cursor: pointer;
 }
 
 .pr-screenshot {
@@ -278,7 +288,14 @@ h1 {
 
 .pr-screenshot:hover {
   opacity: 0.5;
-  cursor: pointer;
+}
+
+.pr-screenshot:hover .overlay-icon-L {
+  display: block;
+}
+
+.pr-screenshot:hover .overlay-icon-L {
+  display: block;
 }
 
 .pr-screenshot-text {
@@ -318,8 +335,10 @@ h1 {
   width: 50%;
 }
 
+/* Contact */
+
 .contact {
-  background-color: black;
+  background: linear-gradient(to bottom, black, rgba(43, 43, 52, 0.8), rgba(0,0,255,0));
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -335,7 +354,7 @@ h1 {
   margin-right: 10%;
   align-content: center;
   /* background: radial-gradient( rgba(96, 96, 99, 0.8) 0%, rgb(0, 0, 0)70%); */
-  background: radial-gradient( rgba(223, 223, 223, 0.8) 0%, rgba(200, 200, 200, 0.3)50%, rgb(0, 0, 0)73%);
+  /* background: radial-gradient( rgba(223, 223, 223, 0.8) 0%, rgba(200, 200, 200, 0.3)50%, rgb(0, 0, 0)73%); */
   /* border: solid 1px white; */
 }
 
