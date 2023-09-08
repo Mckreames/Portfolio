@@ -257,7 +257,7 @@ h1 {
   left: 35%;
   width: 5rem;
   background: radial-gradient(white 70%, transparent 71%);
-  display: none;
+  /* display: none; */
 }
 
 .overlay-icon-R {
@@ -266,7 +266,7 @@ h1 {
   left: 55%;
   width: 5rem;
   background: radial-gradient(white 70%, transparent 71%);
-  display: none;
+  /* display: none; */
 }
 
 .overlay-icon-L:hover {
