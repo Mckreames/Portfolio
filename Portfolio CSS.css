@@ -236,19 +236,62 @@ h1 {
   grid-column: span 2;
 }
 
-.overlay-icons {
+.overlay-icons1 {
   position: absolute;
   top: 33%;
   left: 35%;
-  width: 5rem;
-  background: radial-gradient(white 70%, transparent 71%);
+  /* width: 90%; */
+  background: white;
+  
   /* display: none; */
 }
 
-.pr-screenshot:hover .overlay-icons {
-  display: block;
-  z-index: 1001;
-  background: radial-gradient(white 70%, transparent 71%);
+.overlay-icons2 {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  /* width: 90%; */
+  background: white;
+  
+  /* display: none; */
+}
+
+.overlay-icons3 {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  /* width: 90%; */
+  background: white;
+  
+  /* display: none; */
+}
+
+.overlay-icons4 {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  /* width: 90%; */
+  background: white;
+  
+  /* display: none; */
+}
+
+.overlay-icons5 {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  /* width: 90%; */
+  background: white;
+  
+  /* display: none; */
+}
+
+.overlay-icon-L {
+  width: 5rem;
+}
+
+.overlay-icon-R {
+  width: 5rem;
 }
 
 .overlay-icon-L:hover, 
@@ -256,24 +299,6 @@ h1 {
   cursor: pointer;
   background: radial-gradient(rgb(202, 202, 202) 70%, transparent 71%);
 }
-
-/* .overlay-icon-L {
-  position: absolute;
-  top: 33%;
-  left: 35%;
-  width: 5rem;
-  background: radial-gradient(white 70%, transparent 71%);
-  display: none;
-} */
-
-/* .overlay-icon-R {
-  position: absolute;
-  top: 33%;
-  left: 55%;
-  width: 5rem;
-  background: radial-gradient(white 70%, transparent 71%);
-  display: none;
-} */
 
 .pr-screenshot {
   width: 100%;
@@ -299,23 +324,11 @@ h1 {
 .pr1-ss-div {
   height: auto;
   position: relative;
-  /* padding: 10rem;
-  border-radius: 15px;
-  border: solid 5px goldenrod; */
 }
 
 .pr5-ss-div {
   grid-column: span 2;
   width: 50%;
-}
-
-.pr1-ss-div:hover + .overlay-icons, 
-.pr2-ss-div:hover + .overlay-icons, 
-.pr3-ss-div:hover + .overlay-icons, 
-.pr4-ss-div:hover + .overlay-icons, 
-.pr5-ss-div:hover + .overlay-icons {
-  display: block;
-  z-index: 999;
 }
 
 /* Contact */
