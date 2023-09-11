@@ -239,51 +239,71 @@ h1 {
 .overlay-icons1 {
   position: absolute;
   top: 33%;
-  left: 35%;
-  /* width: 90%; */
-  background: white;
-  
-  /* display: none; */
+  left: 38%;
+  background: radial-gradient(white, transparent 90%);
+  border-radius: 45%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.overlay-icons1:hover {
+  opacity: 1;
+}
+
+.overlay-icons2:hover {
+  opacity: 1;
+}
+
+.overlay-icons3:hover {
+  opacity: 1;
+}
+
+.overlay-icons4:hover {
+  opacity: 1;
+}
+
+.overlay-icons5:hover {
+  opacity: 1;
 }
 
 .overlay-icons2 {
   position: absolute;
   top: 33%;
-  left: 35%;
-  /* width: 90%; */
-  background: white;
-  
-  /* display: none; */
+  left: 38%;
+  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  border-radius: 45%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .overlay-icons3 {
   position: absolute;
   top: 33%;
-  left: 35%;
-  /* width: 90%; */
-  background: white;
-  
-  /* display: none; */
+  left: 38%;
+  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  border-radius: 45%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .overlay-icons4 {
   position: absolute;
   top: 33%;
-  left: 35%;
-  /* width: 90%; */
-  background: white;
-  
-  /* display: none; */
+  left: 38%;
+  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  border-radius: 45%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .overlay-icons5 {
   position: absolute;
   top: 33%;
-  left: 35%;
-  /* width: 90%; */
-  background: white;
-  
-  /* display: none; */
+  left: 39.5%;
+  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  border-radius: 45%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .overlay-icon-L {
@@ -297,7 +317,7 @@ h1 {
 .overlay-icon-L:hover, 
 .overlay-icon-R:hover {
   cursor: pointer;
-  background: radial-gradient(rgb(202, 202, 202) 70%, transparent 71%);
+  background: radial-gradient(rgb(255, 255, 255) 70%, transparent 71%);
 }
 
 .pr-screenshot {
@@ -309,9 +329,33 @@ h1 {
   /* border: solid 3px white; */
 }
 
-.pr-screenshot:hover .{
-  /* opacity: 0.5; */
+/* .pr-screenshot:hover {
+  opacity: 0.5;
+} */
+
+.pr-screenshot:hover ~ .overlay-icons1 {
+  opacity: 1;
 }
+
+.pr-screenshot:hover ~ .overlay-icons2 {
+  opacity: 1;
+}
+
+.pr-screenshot:hover ~ .overlay-icons3 {
+  opacity: 1;
+}
+
+.pr-screenshot:hover ~ .overlay-icons4 {
+  opacity: 1;
+}
+
+.pr-screenshot:hover ~ .overlay-icons5 {
+  opacity: 1;
+}
+
+/* .overlay-icons1:hover ~ .pr-screenshot {
+  opacity: 50%;
+} */
 
 .pr-screenshot-text {
   padding-bottom: 1rem;
@@ -326,9 +370,25 @@ h1 {
   position: relative;
 }
 
+.pr2-ss-div {
+  height: auto;
+  position: relative;
+}
+
+.pr3-ss-div {
+  height: auto;
+  position: relative;
+}
+
+.pr4-ss-div {
+  height: auto;
+  position: relative;
+}
+
 .pr5-ss-div {
   grid-column: span 2;
   width: 50%;
+  position: relative;
 }
 
 /* Contact */
