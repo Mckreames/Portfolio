@@ -95,11 +95,14 @@ h1 {
   font-size: 3.5rem;
   padding-bottom: 2rem;
   /* color: rgb(196, 114, 221) */
-  color: rgb(199, 199, 199)
-  
+  color: rgb(199, 199, 199);
   /* border: 1px solid black; */
-  
   /* background-color: rgb(49, 184, 184); */
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
 }
 
 .banner {
@@ -216,12 +219,13 @@ h1 {
   align-items: center;
   padding: 15rem;
   padding-top: 0;
+  /* margin: 5rem; */
   column-gap: 10rem; 
   overflow: hidden;
   text-align: center;
-
-  /* background-color: black; */
-  /* border: solid 1px white; */
+  background-color: black;
+  /* border-radius: 25px; */
+  /* border: solid 3px goldenrod; */
 }
 
 .special {
@@ -238,9 +242,10 @@ h1 {
 
 .overlay-icons1 {
   position: absolute;
-  top: 33%;
-  left: 38%;
-  background: radial-gradient(white, transparent 90%);
+  top: 15%;
+  left: 27%;
+  padding: 4rem;
+  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
   border-radius: 45%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -268,9 +273,10 @@ h1 {
 
 .overlay-icons2 {
   position: absolute;
-  top: 33%;
-  left: 38%;
-  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  top: 15%;
+  left: 27%;
+  padding: 4rem;
+  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
   border-radius: 45%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -278,9 +284,10 @@ h1 {
 
 .overlay-icons3 {
   position: absolute;
-  top: 33%;
-  left: 38%;
-  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  top: 15%;
+  left: 27%;
+  padding: 4rem;
+  background: radial-gradient(rgba(136, 136, 136), transparent 70%);
   border-radius: 45%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -288,9 +295,10 @@ h1 {
 
 .overlay-icons4 {
   position: absolute;
-  top: 33%;
-  left: 38%;
-  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  top: 15%;
+  left: 27%;
+  padding: 4rem;
+  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
   border-radius: 45%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -298,9 +306,10 @@ h1 {
 
 .overlay-icons5 {
   position: absolute;
-  top: 33%;
-  left: 39.5%;
-  background: radial-gradient(rgb(255, 255, 255), transparent 90%);
+  top: 21%;
+  left: 29.8%;
+  padding: 4rem;
+  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
   border-radius: 45%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -326,12 +335,13 @@ h1 {
   margin-bottom: 1rem;
   border-radius: 5%;
   transition: opacity 0.3s ease;
-  /* border: solid 3px white; */
+  border: solid 3px white;
 }
 
-/* .pr-screenshot:hover {
-  opacity: 0.5;
-} */
+.pr-screenshot:hover {
+  /* opacity: 0.5; */
+  border: solid 3px goldenrod;
+}
 
 .pr-screenshot:hover ~ .overlay-icons1 {
   opacity: 1;
@@ -409,9 +419,9 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   align-content: center;
-  /* background: radial-gradient( rgba(96, 96, 99, 0.8) 0%, rgb(0, 0, 0)70%); */
+  background: radial-gradient( rgba(43, 43, 52, 0.8), rgba(0,0,255,0));
   /* background: radial-gradient( rgba(223, 223, 223, 0.8) 0%, rgba(200, 200, 200, 0.3)50%, rgb(0, 0, 0)73%); */
-  /* border: solid 1px white; */
+  border: solid 5px black;
 }
 
 .contact-sheet > p {
@@ -420,7 +430,8 @@ h1 {
   margin-left: 30%;
   padding-bottom: 5rem;
   padding-left: 3rem;
-  color: goldenrod;
+  color: white;
+  font-size: 2rem;
   /* border: solid 1px white; */
 
 }
