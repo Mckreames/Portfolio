@@ -245,7 +245,8 @@ h1 {
   background-color: goldenrod;
   /* border-radius: 90% 123% 79% 185%; */
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
-  top: 12rem;
+  top: 25rem;
+  left: 6rem;
   width: 50rem;
   height: 50rem;
   z-index: -3;
