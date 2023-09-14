@@ -623,19 +623,21 @@ h1 {
   justify-items: center;
   align-items: center;
   padding-top: 5rem;
-  background: radial-gradient( rgba(43, 43, 52, 0.8), rgba(0,0,255,0));
+  background: rgba(0, 0, 0, 0.381);
+  /* background: radial-gradient( rgba(43, 43, 52, 0.8), rgba(0,0,255,0)); */
+  box-shadow: 1px 1px 10px #000000;
   border-radius: 20%;
-  border: solid 5px black;
+  /* border: solid 5px black; */
 }
 
 .me-look-left {
-  height: 80%;
+  width: 30%;
   float: left;
   /* padding: 3rem; */
   margin: 0 0 3rem 8rem;
-  border-radius: 30%;
+  /* border-radius: 30%; */
   object-fit: cover;
-  border: solid 1px white;
+  /* border: solid 1px white; */
 }
 
 .contact-sheet {
