@@ -384,6 +384,8 @@ h1 {
   z-index: 99;
 }
 
+/* About Me */
+
 .about-me {
   height: auto;
   width: auto;
@@ -394,6 +396,7 @@ h1 {
   background-color: black;
   text-align: center;
   overflow: hidden;
+  z-index: 1
   /* border: solid 1px white; */
 }
 
@@ -409,6 +412,45 @@ h1 {
   font-size: 1.5rem;
 }
 
+.cirkle1 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.cirkle2 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.cirkle3 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.cirkle4 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.cirkle5 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
 
 /* Project section */
 .project {
