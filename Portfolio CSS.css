@@ -302,10 +302,10 @@ h1 {
 .blob14 {
   position: absolute;
   background-color: white;
-  top: 40rem;
-  left: 75rem;
-  width: 16rem;
-  height: 18rem;
+  top: 26rem;
+  left: 65rem;
+  width: 25rem;
+  height: 40rem;
   border-radius: 100% 23% 79% 85%;
   z-index: -3;
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
@@ -424,6 +424,7 @@ h1 {
   width: 5rem;
   background-color: purple;
   border-radius: 50%;
+  opacity: 30%
 }
 
 .cirkle2 {
@@ -437,20 +438,25 @@ h1 {
 
 .cirkle3 {
   position: absolute;
-  left: 45;
+  left: 45rem;
+  /* top: 8rem; */
   height: 5rem;
   width: 5rem;
-  background-color: orange;
+  background-color: blue;
   border-radius: 50%;
+  opacity: 100%;
+  z-index: 4
 }
 
 .cirkle4 {
   position: absolute;
-  left: 50;
+  left: 50rem;
+  /* top: 50rem; */
   height: 5rem;
   width: 5rem;
-  background-color: yellow;
+  background-color: goldenrod;
   border-radius: 50%;
+  opacity: 20%;
   z-index: 1;
 }
 
@@ -670,12 +676,12 @@ h1 {
 }
 
 .contact-box {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 56rem;
   margin-left: 10%;
   margin-right: 10%;
-  justify-items: center;
+  /* justify-items: center; */
   align-items: center;
   padding-top: 5rem;
   background: rgba(0, 0, 0, 0.381);
@@ -686,24 +692,33 @@ h1 {
 }
 
 .me-look-left {
-  width: 30%;
+  width: 90%;
   float: left;
-  /* padding: 3rem; */
-  margin: 0 0 3rem 8rem;
-  /* border-radius: 30%; */
+  padding: 15rem 5rem 15rem 5rem;
+  margin-right: 2rem;
+  border-radius: 20%;
   object-fit: cover;
-  /* border: solid 1px white; */
+  justify-self: end;
+  background-color: rgb(43, 42, 42);
+  border: solid 5px rgb(148, 147, 147);
 }
 
 .contact-sheet {
   display: grid;
   grid-template-columns: 200px 400px;
   grid-template-rows: 200px 200px 200px;
+  justify-self: start;
   color: goldenrod;
   text-align: left;
   align-items: center;
-  padding-left: 8rem;
-  /* background: radial-gradient( rgba(223, 223, 223, 0.8) 0%, rgba(200, 200, 200, 0.3)50%, rgb(0, 0, 0)73%); */
+  padding: 2rem 8rem 2rem 0;
+  margin-left: 2rem;
+  border-radius: 20%;
+  background-color: rgb(43, 42, 42);
+  border: solid 5px rgb(148, 147, 147);
+  /* padding-left: 8rem; */
+  /* background-color: rgba(218, 165, 32, 0.082);
+  border: solid 5px rgb(43, 42, 42); */
 }
 
 .contact-sheet > p {
