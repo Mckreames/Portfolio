@@ -396,14 +396,18 @@ h1 {
   background-color: black;
   text-align: center;
   overflow: hidden;
-  z-index: 1
+  /* z-index: 1; */
   /* border: solid 1px white; */
 }
+
+/* .about-me > p {
+} */
 
 .p-f-left {
   width: 48%;
   padding-top: 2rem;
   font-size: 1.5rem;
+  z-index: 999;
 }
 
 .p-f-right {
@@ -414,42 +418,51 @@ h1 {
 
 .cirkle1 {
   position: absolute;
+  /* top: 5rem; */
+  left: 35rem;
   height: 5rem;
   width: 5rem;
-  background-color: goldenrod;
+  background-color: purple;
   border-radius: 50%;
 }
 
 .cirkle2 {
   position: absolute;
+  left: 40rem;
   height: 5rem;
   width: 5rem;
-  background-color: goldenrod;
+  background-color: red;
   border-radius: 50%;
 }
 
 .cirkle3 {
   position: absolute;
+  left: 45;
   height: 5rem;
   width: 5rem;
-  background-color: goldenrod;
+  background-color: orange;
   border-radius: 50%;
 }
 
 .cirkle4 {
   position: absolute;
+  left: 50;
   height: 5rem;
   width: 5rem;
-  background-color: goldenrod;
+  background-color: yellow;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .cirkle5 {
   position: absolute;
+  /* top: 40rem; */
+  left: 55rem;
   height: 5rem;
   width: 5rem;
-  background-color: goldenrod;
+  background-color: green;
   border-radius: 50%;
+  z-index: 1;
 }
 
 /* Project section */
