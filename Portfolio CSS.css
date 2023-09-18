@@ -101,7 +101,7 @@ h1 {
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: goldenrod;
   padding: 0 4rem;
   border-left: 3px double goldenrod;
