@@ -16,7 +16,7 @@ body {
   linear-gradient(217deg, rgba(0, 0, 0, 0.8), rgba(255,0,0,0)),            
   linear-gradient(127deg, rgba(30, 33, 30, 0.8), rgba(0,255,0,0)),            
   linear-gradient(336deg, rgba(43, 43, 52, 0.8), rgba(0,0,255,0));
-  height: 100%;
+  /* height: 100%; */
   /* width: 98%; */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,11 +39,14 @@ ul > a {
 /* Navigation */
 
 header {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  padding: 0.2rem;
-  margin-top: -5rem;
-  grid-template-columns: repeat(1fr, 4);
+  padding: 0.5rem;
+  /* margin-top: -5rem; */
+  margin: -5rem auto 0 auto;
+  /* grid-template-columns: repeat(1fr, 4); */
   align-items: center;
   border-radius: 10px;
   position: fixed;
@@ -52,22 +55,23 @@ header {
 }
 
 nav {
-  grid-column: 4;
+  /* grid-column: 4; */
   color: #919692;
 }
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: Space-evenly;
-  align-items: center;
-  padding: 20px 20px;
+  /* align-items: center; */
+  /* padding: 20px 20px; */
   /* border: 1px solid black; */
 }
 
 nav li :hover {
   text-decoration: underline;
   text-decoration-color: goldenrod;
+  /* font-size: 1.2rem; */
 }
 
 .nav-logo {
@@ -84,7 +88,11 @@ nav li :hover {
 ul a {
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.5rem;
+  padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+  margin: 0.7rem;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 3px;
 }
 
 /* splash */
@@ -476,33 +484,46 @@ h1 {
 
 /* Project section */
 .project {
-  display: grid;
+  /* display: grid; */
   /* width: 100%; */
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  justify-items: center;
-  align-items: center;
-  padding: 15rem;
-  padding-top: 0;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: repeat(4, 1fr); */
+  /* justify-items: center; */
+  /* align-items: center; */
+  padding: 4.5rem 8rem 0 8rem;
+  /* padding-top: 0; */
   /* margin: 5rem; */
-  column-gap: 10rem; 
-  overflow: hidden;
-  text-align: center;
+  /* column-gap: 10rem;  */
+  /* overflow: hidden; */
   background-color: black;
+  text-align: center;
   /* border-radius: 25px; */
   /* border: solid 3px goldenrod; */
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 1rem 15rem 4rem 15rem;
+  column-gap: 10rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+}
+
 .special {
-  grid-row: 1;
-  grid-column: span 2;
-  gap: 0;
+
 }
 
 .pro {
-  font-size: 5rem;
+  /* font-size: 5rem; */
   font-weight: bold;
   grid-column: span 2;
+  /* padding: 2rem 0 2rem 0; */
+  text-align: center;
 }
 
 .overlay-icons1 {
@@ -673,7 +694,7 @@ h1 {
   width: 100%;
   height: 30%; 
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3rem;
   padding-bottom: 5%;
   position: relative;
 }
@@ -686,7 +707,7 @@ h1 {
   margin-right: 10%;
   /* justify-items: center; */
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 0rem;
   background: rgba(0, 0, 0, 0.381);
   /* background: radial-gradient( rgba(43, 43, 52, 0.8), rgba(0,0,255,0)); */
   box-shadow: 1px 1px 10px #000000;
