@@ -5,19 +5,13 @@
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
   color: white;
-  /* border: 1px solid white; */
 }
 
 body {
-  /* background-color: rgba(7, 205, 244, 0.753); */
-  /* background-color: rgb(200, 228, 239); */
-  /* background: linear-gradient(rgb(38, 40, 41); */
   background: 
   linear-gradient(217deg, rgba(0, 0, 0, 0.8), rgba(255,0,0,0)),            
   linear-gradient(127deg, rgba(30, 33, 30, 0.8), rgba(0,255,0,0)),            
   linear-gradient(336deg, rgba(43, 43, 52, 0.8), rgba(0,0,255,0));
-  /* height: 100%; */
-  /* width: 98%; */
   overflow-x: hidden;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,18 +62,11 @@ nav {
 
 nav ul {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: Space-evenly;
-  /* align-items: center; */
-  /* padding: 20px 20px; */
-  /* border: 1px solid black; */
 }
 
 nav li :hover {
   color: goldenrod;
-  /* text-decoration: underline; */
-  /* text-decoration-color: goldenrod; */
-  /* font-size: 1.2rem; */
 }
 
 .nav-logo {
@@ -90,7 +77,6 @@ nav li :hover {
 
 .nav-link {
   list-style: none;
-  /* box-shadow: 0 5px 3px -3px rgb(255, 255, 255); */
 }
 
 ul a {
@@ -107,14 +93,17 @@ ul a {
 
 
 h1 {
-  /* border-bottom: 3px sol00id rgba(0, 103, 103, 0.7); */
   font-size: 3.5rem;
   padding-bottom: 2rem;
   text-shadow: 1px 1px 3px goldenrod;
-  /* color: rgb(196, 114, 221) */
   color: rgb(199, 199, 199);
-  /* border: 1px solid black; */
-  /* background-color: rgb(49, 184, 184); */
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 3px goldenrod;
+  color: rgb(199, 199, 199);
+  padding-bottom: 2rem;
 }
 
 .underline {
@@ -126,13 +115,7 @@ h1 {
 }
 
 .banner {
-  /* width: 50%; */
   margin: auto;
-  /* border: 1px solid black; */
-  /* background-color: rgba(0, 103, 103, 0.7); */
-  /* border-width: 10px; */
-  /* border-color: brown; */
-  /* border-radius: 20px; */
 }
 
 
@@ -145,12 +128,6 @@ h1 {
   margin-top: 5rem;
   padding: 5rem;
   background: linear-gradient(to bottom, rgba(0,0,255,0), rgb(0, 0, 0));
-  /* border: solid 1px white; */
-}
-
-.photo-blob {
-  /* position: relative; */
-  /* border: 3px solid white; */
 }
 
 .me {
@@ -160,15 +137,12 @@ h1 {
   justify-self: end;
   border-radius: 25%;
   object-fit: cover;
-  /* background: linear-gradient(to top, white, transparent 20%); */
-  /* border: solid 1px white; */
   z-index: 5;
 }
 
 .blob1 {
   position: absolute;
   background-color: goldenrod;
-  /* border-radius: 90% 123% 79% 185%; */
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
   top: 12rem;
   width: 50rem;
@@ -217,7 +191,6 @@ h1 {
   left: 83rem;
   width: 34rem;
   height: 44rem;
-  /* border-radius: 100% 23% 79% 85%; */
   box-shadow: -2px -2px 10px #000000a8;
   z-index: -2;
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
@@ -251,8 +224,6 @@ h1 {
   position: absolute;
   background-color: black;
   border-radius: 50%;
-  /* border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%; */
-  /* box-shadow: -5px -5px 10px #888888a8; */
   top: 40rem;
   left: 2rem;
   width: 12rem;
@@ -263,7 +234,6 @@ h1 {
 .blob9 {
   position: absolute;
   background-color: goldenrod;
-  /* border-radius: 90% 123% 79% 185%; */
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
   top: 10rem;
   left: 6rem;
@@ -313,7 +283,6 @@ h1 {
   left: 83rem;
   width: 34rem;
   height: 44rem;
-  /* border-radius: 100% 23% 79% 85%; */
   box-shadow: -2px -2px 10px #000000a8;
   z-index: -2;
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
@@ -347,8 +316,6 @@ h1 {
   position: absolute;
   background-color: black;
   border-radius: 50%;
-  /* border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%; */
-  /* box-shadow: -5px -5px 10px #888888a8; */
   top: 20rem;
   left: 2rem;
   width: 12rem;
@@ -364,7 +331,6 @@ h1 {
   box-shadow: 2px 2px 10px #000000;
   border-radius: 35px;
   background: rgba(0, 0, 0, 0.381);
-  /* border: solid 1px white; */
 }
 
 .title {
@@ -410,6 +376,7 @@ h1 {
 .about-me {
   height: auto;
   width: auto;
+  position: relative;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 15%;
@@ -417,8 +384,6 @@ h1 {
   background-color: black;
   text-align: center;
   overflow: hidden;
-  /* z-index: 1; */
-  /* border: solid 1px white; */
 }
 
 /* .about-me > p {
@@ -439,76 +404,71 @@ h1 {
 
 .cirkle1 {
   position: absolute;
-  /* top: 5rem; */
   left: 35rem;
-  height: 5rem;
-  width: 5rem;
-  background-color: purple;
+  top: 15rem;
+  height: 10rem;
+  width: 10rem;
+  background-color: transparent;
+  border: 10px solid goldenrod;
   border-radius: 50%;
-  opacity: 30%
+  opacity: .13;
 }
 
 .cirkle2 {
   position: absolute;
-  left: 40rem;
-  height: 5rem;
-  width: 5rem;
-  background-color: red;
+  left: 7rem;
+  top: 25rem;
+  height: 30rem;
+  width: 30rem;
+  background-color: transparent;
+  border: 10px solid goldenrod;
   border-radius: 50%;
+  opacity: .13;
 }
 
 .cirkle3 {
   position: absolute;
   left: 45rem;
-  /* top: 8rem; */
-  height: 5rem;
-  width: 5rem;
-  background-color: blue;
+  top: 10rem;
+  height: 45rem;
+  width: 45rem;
+  background-color: transparent;
+  border: 10px solid goldenrod;
   border-radius: 50%;
-  opacity: 100%;
-  z-index: 4
+  opacity: .13;
 }
 
 .cirkle4 {
   position: absolute;
   left: 50rem;
-  /* top: 50rem; */
-  height: 5rem;
-  width: 5rem;
-  background-color: goldenrod;
+  top: 15rem;
+  height: 25rem;
+  width: 25rem;
+  background-color: transparent;
+  border: 10px solid goldenrod;
   border-radius: 50%;
-  opacity: 20%;
+  opacity: .13;
   z-index: 1;
 }
 
 .cirkle5 {
   position: absolute;
-  /* top: 40rem; */
-  left: 55rem;
-  height: 5rem;
-  width: 5rem;
-  background-color: green;
+  left: 10rem;
+  top: 7rem;
+  height: 15rem;
+  width: 15rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
   border-radius: 50%;
+  opacity: .13;
   z-index: 1;
 }
 
 /* Project section */
 .project {
-  /* display: grid; */
-  /* width: 100%; */
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-rows: repeat(4, 1fr); */
-  /* justify-items: center; */
-  /* align-items: center; */
   padding: 4.5rem 0 0 0;
-  /* padding-top: 0; */
-  /* margin: 5rem; */
-  /* column-gap: 10rem;  */
-  /* overflow: hidden; */
   background-color: black;
   text-align: center;
-  /* border-radius: 25px; */
-  /* border: solid 3px goldenrod; */
 }
 
 .projects {
@@ -517,7 +477,7 @@ h1 {
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
-  padding: 1rem 15rem 4rem 15rem;
+  padding: 1rem 12rem 4rem 12rem;
   column-gap: 10rem;
   overflow: hidden;
   text-align: center;
@@ -529,10 +489,8 @@ h1 {
 }
 
 .pro {
-  /* font-size: 5rem; */
   font-weight: bold;
   grid-column: span 2;
-  /* padding: 2rem 0 2rem 0; */
   text-align: center;
 }
 
@@ -627,7 +585,6 @@ h1 {
 
 .pr-screenshot {
   width: 100%;
-  /* height: auto; */
   margin-bottom: 1rem;
   border-radius: 5%;
   transition: opacity 0.3s ease;
@@ -636,7 +593,6 @@ h1 {
 }
 
 .pr-screenshot:hover {
-  /* opacity: 0.5; */
   border: solid 3px goldenrod;
 }
 
@@ -659,10 +615,6 @@ h1 {
 .pr-screenshot:hover ~ .overlay-icons5 {
   opacity: 1;
 }
-
-/* .overlay-icons1:hover ~ .pr-screenshot {
-  opacity: 50%;
-} */
 
 .pr-screenshot-text {
   padding-bottom: 1rem;
@@ -736,8 +688,8 @@ h1 {
 
 .contact-box {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
   justify-content: space-between;
   padding-top: 0rem;
   background: rgba(0, 0, 0, 0.381);
@@ -747,11 +699,9 @@ h1 {
 
 .contact-logo {
   width: 48%;
-  /* float: left; */
-  padding: 15rem 5rem 15rem 5rem;
-  /* margin-right: 2rem; */
+  padding: 15rem 2rem 15rem 2rem;
   border-radius: 20%;
-  object-fit: cover;
+  object-fit: contain;
   background-color: rgb(43, 42, 42);
   border: solid 5px rgb(148, 147, 147);
 }
@@ -759,36 +709,28 @@ h1 {
 .contact-sheet {
   display: grid;
   width: 48%;
-  grid-template-columns: 200px 400px;
+  /* grid-template-columns: 200px 400px; */
+  grid-template-columns: 33% 66%;
   grid-template-rows: 200px 200px 200px;
   justify-self: start;
   color: goldenrod;
   text-align: left;
   align-items: center;
   padding: 2rem 8rem 2rem 0;
-  /* margin-left: 2rem; */
+  overflow: hidden;
   border-radius: 20%;
   background-color: rgb(43, 42, 42);
   border: solid 5px rgb(148, 147, 147);
-  /* padding-left: 8rem; */
-  /* background-color: rgba(218, 165, 32, 0.082);
-  border: solid 5px rgb(43, 42, 42); */
 }
 
 .contact-sheet > p {
-  /* width: 54%; */
-  /* margin-top: -3rem; */
-  margin-left: 4rem;
+  margin-left: 2.5rem;
   color: white;
-  font-size: 2rem;
-  /* border: solid 1px white; */
-
+  font-size: 1.6rem;
 }
 
 
 .icon1 {
-  /* margin-left: 32.5%; */
-  /* background-color: grey; */
   height: 40%;
   width: auto;
   margin-top: 1rem;
@@ -810,8 +752,6 @@ h1 {
 }
 
 .icon2 {
-  /* margin-left: 32%; */
-  /* background-color: grey; */
   height: 30%;
   width: auto;
   margin-top: 1rem;
@@ -829,7 +769,6 @@ h1 {
 }
 
 .icon3 {
-  /* display: inline-block; */
   height: 40%;
   width: auto;
   margin-top: 1rem;
@@ -849,7 +788,7 @@ h1 {
 /* Footer */
 
 footer {
-  /* border: 1px solid white; */
+
   background-color: rgb(32, 32, 35);
   width: 100%;
   height: 10rem;
@@ -863,5 +802,4 @@ footer > p {
 
 footer > a {
   color: rgb(193, 193, 193);
-  /* text-decoration: none; */
 }
