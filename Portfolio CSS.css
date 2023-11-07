@@ -63,6 +63,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: Space-evenly;
+  /* background-color:rgba(0, 0, 0, 0.381) */
 }
 
 nav li :hover {
@@ -404,8 +405,8 @@ h2 {
 
 .cirkle1 {
   position: absolute;
-  left: 35rem;
-  top: 15rem;
+  left: 33rem;
+  top: 11rem;
   height: 10rem;
   width: 10rem;
   background-color: transparent;
@@ -416,8 +417,8 @@ h2 {
 
 .cirkle2 {
   position: absolute;
-  left: 7rem;
-  top: 25rem;
+  left: 12rem;
+  top: 22rem;
   height: 30rem;
   width: 30rem;
   background-color: transparent;
@@ -429,7 +430,7 @@ h2 {
 .cirkle3 {
   position: absolute;
   left: 45rem;
-  top: 10rem;
+  top: 6rem;
   height: 45rem;
   width: 45rem;
   background-color: transparent;
@@ -464,11 +465,51 @@ h2 {
   z-index: 1;
 }
 
+.cirkle6 {
+  position: absolute;
+  left: 99rem;
+  top: 2rem;
+  height: 15rem;
+  width: 15rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 50%;
+  opacity: .13;
+  z-index: 1;
+}
+
+.cirkle7 {
+  position: absolute;
+  left: 94rem;
+  top: 18rem;
+  height: 35rem;
+  width: 35rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 50%;
+  opacity: .13;
+  z-index: 1;
+}
+
+.cirkle8 {
+  position: absolute;
+  left: 82rem;
+  top: 7rem;
+  height: 23rem;
+  width: 23rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 50%;
+  opacity: .13;
+  z-index: 1;
+}
+
 /* Project section */
 .project {
   padding: 4.5rem 0 0 0;
   background-color: black;
   text-align: center;
+  position: relative;
 }
 
 .projects {
@@ -675,6 +716,111 @@ h2 {
 .pr5-ss-div:hover {
   opacity: .7;
 }
+
+.skware1 {
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+  height: 27rem;
+  width: 40rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware2 {
+  position: absolute;
+  top: 10rem;
+  left: 50rem;
+  height: 30rem;
+  width: 30rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware3 {
+  position: absolute;
+  top: 30rem;
+  left: 12rem;
+  height: 50rem;
+  width: 30rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware4 {
+  position: absolute;
+  top: 45rem;
+  left: 40rem;
+  height: 20rem;
+  width: 40rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware5 {
+  position: absolute;
+  top: 72rem;
+  left: 35rem;
+  height: 30rem;
+  width: 50rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware6 {
+  position: absolute;
+  top: 25rem;
+  left: 70rem;
+  height: 45rem;
+  width: 40rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware7 {
+  position: absolute;
+  top: 6rem;
+  left: 80rem;
+  height: 30rem;
+  width: 45rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
+.skware8 {
+  position: absolute;
+  top: 60rem;
+  left: 80rem;
+  height: 30rem;
+  width: 40rem;
+  border: 10px solid goldenrod;
+  background-color: transparent;
+  border-radius: 25%;
+  opacity: .13;
+  z-index: 0;
+}
+
 
 /* Contact */
 
