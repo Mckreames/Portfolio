@@ -141,6 +141,21 @@ h2 {
   z-index: 5;
 }
 
+.blob-white {
+  position: absolute;
+  background-color: white;
+}
+
+.blob-gold {
+  position: absolute;
+  background-color: goldenrod;
+}
+
+.blob-black {
+  position: absolute;
+  background-color: black;
+}
+
 .blob1 {
   position: absolute;
   background-color: goldenrod;
