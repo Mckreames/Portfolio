@@ -211,8 +211,8 @@ h2 {
 
 
 .blob-container{
-  position: relative;
-  margin-bottom: 5rem;
+  /* position: relative; */
+  /* margin-bottom: 5rem; */
 }
 
 .blob {
@@ -442,10 +442,10 @@ h2 {
 }
 
 .icon {
-  height: 5%;
-  width: 4%;
-  margin-top: 1rem;
-  margin-bottom: -0.7rem;
+  height: auto;
+  width: 9%;
+  /* margin-top: 1rem; */
+  /* margin-bottom: -0.7rem; */
   margin-right: 1rem;
   object-fit: cover;
   border-radius: 20%;
@@ -1881,6 +1881,24 @@ footer > a {
     font-size: 2rem;
   }
 
+  .blob9 {
+    display: none;
+
+  }
+
+  .blob11 {
+    display: none;
+
+  }
+
+  .blob15 {
+    display: none;
+  }
+
+  .blob16 {
+    display: none;
+  }
+
   .explanation {
     font-size: 2rem
   }
@@ -1923,4 +1941,6 @@ footer > a {
     display: block;
     width: 100%;
   }
+
+
 }
