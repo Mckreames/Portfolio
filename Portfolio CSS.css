@@ -78,6 +78,7 @@ nav li :hover {
 
 .nav-link {
   list-style: none;
+  color: white;
 }
 
 ul a {
@@ -88,6 +89,7 @@ ul a {
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-radius: 3px;
+  color: white;
 }
 
 /* splash */
