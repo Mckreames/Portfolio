@@ -1738,7 +1738,6 @@ footer > a {
 
   .blob11 {
     left: 6rem;
-    width: 
   }
 
   .cirkle1 {
@@ -1801,10 +1800,16 @@ footer > a {
 
   .p-f-left {
     font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding-top: 0;
   }
 
   .p-f-right {
     font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding-top: 0;
   }
 
   .projects {
@@ -1852,5 +1857,70 @@ footer > a {
 
   .contact-sheet > p {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 460px) {
+  
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .id {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .explanation {
+    font-size: 2rem
+  }
+
+  .contact-box {
+    margin: 0;
+  }
+
+  .contact-sheet {
+    border-radius: 0;
+  }
+
+  .contact-sheet > p {
+    font-size: .9rem;
+  }
+
+  .icon1 {
+    height: auto;
+    width: 85%;
+  }
+
+  .icon2 {
+    height: auto;
+    width: 85%;
+  }
+
+  .icon3 {
+    height: auto;
+    width: 85%;
+    padding-top: 0;
+  }
+
+  .p-f-right {
+    display: block;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .p-f-left {
+    display: block;
+    width: 100%;
   }
 }
