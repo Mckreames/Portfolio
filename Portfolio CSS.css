@@ -262,7 +262,7 @@ h2 {
   background-color: goldenrod;
   top: 50rem;
   left: 95rem;
-  width: 30rem;
+  width: 23.5rem;
   height: 30rem;
   border-radius: 100% 23% 79% 85%;
   z-index: -1;
@@ -346,7 +346,7 @@ h2 {
   background-color: goldenrod;
   top: 28rem;
   left: 95rem;
-  width: 30rem;
+  width: 23.5rem;
   height: 30rem;
   border-radius: 100% 23% 79% 85%;
   z-index: -1;
@@ -536,8 +536,8 @@ h2 {
 
 .cirkle4 {
   position: absolute;
-  left: 50rem;
-  top: 15rem;
+  left: 45rem;
+  top: 23rem;
   height: 25rem;
   width: 25rem;
   background-color: transparent;
@@ -562,7 +562,7 @@ h2 {
 
 .cirkle6 {
   position: absolute;
-  left: 99rem;
+  left: 90rem;
   top: 2rem;
   height: 15rem;
   width: 15rem;
@@ -575,10 +575,10 @@ h2 {
 
 .cirkle7 {
   position: absolute;
-  left: 94rem;
-  top: 18rem;
-  height: 35rem;
-  width: 35rem;
+  left: 84rem;
+  top: 23rem;
+  height: 24.5rem;
+  width: 24.5rem; 
   border: 10px solid goldenrod;
   background-color: transparent;
   border-radius: 50%;
@@ -588,7 +588,7 @@ h2 {
 
 .cirkle8 {
   position: absolute;
-  left: 82rem;
+  left: 68rem;
   top: 7rem;
   height: 23rem;
   width: 23rem;
@@ -895,7 +895,7 @@ h2 {
   top: 6rem;
   left: 80rem;
   height: 30rem;
-  width: 45rem;
+  width: 30rem;
   border: 10px solid goldenrod;
   background-color: transparent;
   border-radius: 35%;
@@ -908,7 +908,7 @@ h2 {
   top: 60rem;
   left: 80rem;
   height: 30rem;
-  width: 40rem;
+  width: 30rem;
   border: 10px solid goldenrod;
   background-color: transparent;
   border-radius: 35%;
@@ -978,6 +978,10 @@ form {
   padding-top: 3rem;
 }
 
+option {
+  color: black;
+}
+
 .btn {
   background-color: goldenrod;
 }
@@ -991,7 +995,7 @@ form {
   align-items: center;
 }
 
-.icon {
+.icons {
   height: auto;
   width: 70%;
   justify-self: end;
@@ -1013,6 +1017,7 @@ form {
   grid-column: 2;
   grid-row: 1;
   justify-self: start;
+  padding-left: 2rem; 
 }
 
 .icon2 {
@@ -1024,6 +1029,7 @@ form {
 .email {
   grid-column: 2;
   grid-row: 2;
+  padding-left: 2rem;
 }
 
 .icon3 {
@@ -1035,6 +1041,7 @@ form {
 .location {
   grid-column: 2;
   grid-row: 3;
+  padding-left: 2rem;
 }
 
 /* Footer */
