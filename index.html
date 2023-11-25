@@ -158,12 +158,88 @@
             <section class="contact-box">
                 <img src="./Icons/logo-no-background.png" class="contact-logo" alt="A Picture of Me" />
                 <section class="contact-sheet">
-                    <img src="./Icons/phone icon.png" class="icon1" alt="Phone Icon" />
-                    <p class="phone">Mobile: <br>(865)306-6365</p>
-                    <img src="./Icons/email icon.png" class="icon2" alt="Email Icon" />
-                    <p class="email">Email: <br>ButlerWilliam16@gmail.com</p>
-                    <img src="./Icons/location.png" class="icon3" alt="Web Icon" />
-                    <p class="location">Knoxville, Tennessee</p>
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">I'll Contact You!</button>
+                          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Contact Me!</button>
+                          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Govt Secrets</button>
+                          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Disabled</button>
+                        </div>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="firstName" class="form-label">First name</label>
+                                  <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4" required>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="jobTitle" class="form-label">Your Job Title</label>
+                                  <input type="text" class="form-control" id="jobTitle">
+                                </div>
+                                <div class="col-12">
+                                  <label for="companyName" class="form-label">Company Name</label>
+                                  <input type="text" class="form-control" id="companyName">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="inputState" class="form-label">State</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-2">
+                                  <label for="inputZip" class="form-label">Zip</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" id="projectInquiry" name="contactReason">
+                                    <label class="form-check-label" for="projectInquiry">
+                                      Contacting for a project inquiry
+                                    </label>
+                                    <br/>
+                                    <input class="form-check-input" type="radio" id="jobinquiry" name="contactReason">
+                                    <label class="form-check-label" for="jobinquiry">
+                                      Contacting for a job inquiry
+                                    </label>
+                                    <br/>
+                                    <input class="form-check-input" type="radio" id="other" name="contactReason">
+                                    <label class="form-check-label" for="other">
+                                      Contacting for another reason
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn ">Submit</button>
+                                </div>
+                              </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                            <div class="contact-grid-layer">
+                                <img src="./Icons/phone icon.png" class="icon icon1" alt="Phone Icon" />
+                                <p class="phone">Mobile: <br>(865)306-6365</p>
+                                <img src="./Icons/email icon.png" class="icon icon2" alt="Email Icon" />
+                                <p class="email">Email: <br>ButlerWilliam16@gmail.com</p>
+                                <img src="./Icons/location.png" class="icon icon3" alt="Web Icon" />
+                                <p class="location">Knoxville, Tennessee</p>
+                            </div>
+                            </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start. ding!</div>
+                        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
+                      </div>
                 </section>
             </section>
         </section>

@@ -82,6 +82,15 @@ nav li :hover {
   color: white;
 }
 
+.nav-link:hover {
+  color: goldenrod;
+}
+
+.nav-link:active {
+  background-color: goldenrod;
+  color: white;
+}
+
 ul a {
   font-weight: bold;
   text-decoration: none;
@@ -939,7 +948,7 @@ h2 {
 }
 
 .contact-sheet {
-  display: grid;
+  /* display: grid; */
   width: 48%;
   /* grid-template-columns: 200px 400px; */
   grid-template-columns: 33% 66%;
@@ -948,7 +957,7 @@ h2 {
   color: goldenrod;
   text-align: left;
   align-items: center;
-  padding: 2rem 8rem 2rem 0;
+  padding: 2rem 4rem 2rem 4rem;
   overflow: hidden;
   border-radius: 20%;
   background-color: rgb(43, 42, 42);
@@ -961,19 +970,42 @@ h2 {
   font-size: 1.6rem;
 }
 
+.nav-tabs {
+  color: white;
+}
 
-.icon1 {
-  height: 40%;
-  width: auto;
-  margin-top: 1rem;
-  grid-column: 1;
-  grid-row: 1; 
-  padding-bottom: 0;
-  margin-bottom: 0;
+form {
+  padding-top: 3rem;
+}
+
+.btn {
+  background-color: goldenrod;
+}
+
+.contact-grid-layer {
+  display: grid;
+  grid-template-columns: 33% 66%;
+  grid-template-rows: 200px 200px 200px;
+  justify-self: start;
+  text-align: left;
+  align-items: center;
+}
+
+.icon {
+  height: auto;
+  width: 70%;
   justify-self: end;
   padding-right: 3rem;
   border-radius: 4px;
   border-right: solid 5px goldenrod;
+}
+
+.icon1 {
+  grid-column: 1;
+  grid-row: 1; 
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 3rem;
 
 }
 
@@ -984,15 +1016,9 @@ h2 {
 }
 
 .icon2 {
-  height: 30%;
-  width: auto;
-  margin-top: 1rem;
   grid-column: 1;
   grid-row: 2;
-  justify-self: end;
   padding-right: 3rem;
-  border-radius: 4px;
-  border-right: solid 5px goldenrod;
 }
 
 .email {
@@ -1001,15 +1027,9 @@ h2 {
 }
 
 .icon3 {
-  height: 40%;
-  width: auto;
-  margin-top: 1rem;
   grid-column: 1;
   grid-row: 3;
-  justify-self: end;
   padding-right: 3rem;
-  border-radius: 4px;
-  border-right: solid 5px goldenrod;
 }
 
 .location {
@@ -1221,7 +1241,7 @@ footer > a {
   }
 
   .contact-sheet {
-    padding: 2rem 3rem 2rem 0;
+    padding: 2rem 3rem 2rem 3rem;
   }
 
   .icon1 {
@@ -1863,7 +1883,7 @@ footer > a {
 
   .contact-sheet {
     width: 100%;
-    padding-right: 0;
+    padding-right: ;
   }
 
   .contact-sheet > p {
