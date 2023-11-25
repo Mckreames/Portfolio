@@ -232,6 +232,7 @@ h2 {
   background-color: goldenrod;
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
   top: 12rem;
+  left: 1rem;
   width: 50rem;
   height: 50rem;
   z-index: -3;
@@ -303,10 +304,10 @@ h2 {
 
 .blob8 {
   background-color: black;
-  border-radius: 50%;
-  top: 40rem;
+  border-radius:  150% 63% 99% 185% / 94% 85% 87% 100%;
+  top: 45rem;
   left: 2rem;
-  width: 12rem;
+  width: 15rem;
   height: 15rem;
   z-index: -4;
 }
