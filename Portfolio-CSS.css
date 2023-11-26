@@ -989,7 +989,7 @@ option {
 
 .contact-grid-layer {
   display: grid;
-  grid-template-columns: 33% 66%;
+  grid-template-columns: 40% 60%;
   grid-template-rows: 200px 200px 200px;
   justify-self: start;
   text-align: left;
