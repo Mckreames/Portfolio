@@ -1045,6 +1045,10 @@ option {
   padding-left: 2rem;
 }
 
+.connect-icon {
+  width: 30%;
+}
+
 /* Footer */
 
 footer {
