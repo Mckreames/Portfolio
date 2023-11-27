@@ -977,7 +977,7 @@ option {
 
 .icons {
   height: auto;
-  width: 70%;
+  width: 60%;
   justify-self: end;
   padding-right: 3rem;
   border-radius: 4px;
@@ -1025,7 +1025,7 @@ option {
 }
 
 .connect-icon {
-  width: 30%;
+  width: 20%;
 }
 
 /* Footer */
