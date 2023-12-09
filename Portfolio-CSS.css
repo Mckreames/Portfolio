@@ -126,6 +126,10 @@ h2 {
   margin: auto;
 }
 
+.resume-link {
+  display: none;
+}
+
 
 
 .flex-blob-container {
@@ -1535,6 +1539,24 @@ footer > a {
     background: rgba(0, 0, 0, 0.6);
   }
 
+  .resume-link {
+    display: block;
+    width: 80%;
+    border-left: goldenrod solid;
+    border-right: goldenrod solid;
+    text-align: center;
+  }
+
+  .id > div > a {
+    color:#919692;
+    text-decoration: underline;
+  }
+
+  .id > div > a:hover {
+    color:goldenrod;
+    text-decoration: underline;
+  }
+
   .blob1 {
     top: 2rem;
     height: 45rem;
@@ -1746,6 +1768,14 @@ footer > a {
 
   .explanation {
     font-size: 2.5rem
+  }
+
+  .resume-link {
+    width: 90%;;
+  }
+
+  .id > div > a {
+    font-size: 1.1rem;
   }
 
   .blob1 {
