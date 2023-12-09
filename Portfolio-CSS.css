@@ -987,6 +987,10 @@ form {
   padding-top: 3rem;
 }
 
+.form-control {
+  caret-color: goldenrod;
+}
+
 option {
   color: black;
 }
