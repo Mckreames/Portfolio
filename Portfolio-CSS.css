@@ -126,6 +126,10 @@ h2 {
   margin: auto;
 }
 
+.resume-link {
+  display: none;
+}
+
 
 
 .flex-blob-container {
@@ -439,6 +443,7 @@ h2 {
   height: auto;
   width: 9%;
   margin-right: 1rem;
+  margin-top: 1rem; 
   object-fit: cover;
   border-radius: 20%;
 }
@@ -605,6 +610,27 @@ h2 {
   font-weight: bold;
   grid-column: span 2;
   text-align: center;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff;
+  color: black;
 }
 
 .overlay-icons1 {
@@ -924,6 +950,18 @@ h2 {
   border: solid 5px rgb(148, 147, 147);
 }
 
+p > a {
+  color: white;
+}
+
+p > a:hover {
+  color: goldenrod;
+}
+
+/* p > a:visited {
+  color: white;
+} */
+
 .contact-sheet {
   width: 48%;
   grid-template-columns: 33% 66%;
@@ -953,6 +991,10 @@ form {
   padding-top: 3rem;
 }
 
+.form-control {
+  caret-color: goldenrod;
+}
+
 option {
   color: black;
 }
@@ -979,9 +1021,12 @@ option {
   height: auto;
   width: 60%;
   justify-self: end;
+  /* margin-right: 3rem; */
   padding-right: 3rem;
-  border-radius: 4px;
+  border-radius: 10px;
   border-right: solid 5px goldenrod;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.486) 68%, rgb(43, 42, 42) 69%); */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.486), rgb(43, 42, 42) 85%);
 }
 
 .icon1 {
@@ -1226,7 +1271,7 @@ footer > a {
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .me {
     display: none;
   }
@@ -1404,7 +1449,7 @@ footer > a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
   header {
     justify-content: center;
@@ -1430,6 +1475,24 @@ footer > a {
   .id {
     margin: auto;
     background: rgba(0, 0, 0, 0.6);
+  }
+
+  .resume-link {
+    display: block;
+    width: 80%;
+    border-left: goldenrod solid;
+    border-right: goldenrod solid;
+    text-align: center;
+  }
+
+  .id > div > a {
+    color:#919692;
+    text-decoration: underline;
+  }
+
+  .id > div > a:hover {
+    color:goldenrod;
+    text-decoration: underline;
   }
 
   .blob1 {
@@ -1492,7 +1555,6 @@ footer > a {
 
   .blob11 {
     left: 6rem;
-    width: 
   }
 
   .cirkle1 {
@@ -1598,6 +1660,10 @@ footer > a {
     width: 100%;
   }
 
+  .icons {
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -1640,6 +1706,14 @@ footer > a {
 
   .explanation {
     font-size: 2.5rem
+  }
+
+  .resume-link {
+    width: 90%;;
+  }
+
+  .id > div > a {
+    font-size: 1.1rem;
   }
 
   .blob1 {
@@ -1816,6 +1890,10 @@ footer > a {
   .contact-sheet > p {
     font-size: 1.2rem;
   }
+
+  .icons {
+    width: 80%;
+  }
 }
 @media (max-width: 460px) {
 
@@ -1832,7 +1910,7 @@ footer > a {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .id {
@@ -1869,12 +1947,122 @@ footer > a {
     font-size: 2rem
   }
 
+  .pro{
+    font-size: 1.4rem;
+  }
+
   .contact-box {
     margin: 0;
   }
 
   .contact-sheet {
     border-radius: 0;
+  }
+
+  .contact-sheet > p {
+    font-size: .9rem;
+  }
+
+  .icon1 {
+    height: auto;
+    width: 85%;
+  }
+
+  .icon2 {
+    height: auto;
+    width: 85%;
+  }
+
+  .icon3 {
+    height: auto;
+    width: 85%;
+    padding-top: 0;
+  }
+
+  .p-f-right {
+    display: block;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .p-f-left {
+    display: block;
+    width: 100%;
+  }
+
+  .icons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+
+  header {
+    justify-content: center;
+  }
+
+  .nav-logo {
+    margin-left: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .id {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .blob9 {
+    display: none;
+
+  }
+
+  .blob11 {
+    display: none;
+
+  }
+
+  .blob15 {
+    display: none;
+  }
+
+  .blob16 {
+    display: none;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+  .explanation {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+
+  .pro {
+    font-size: 1.5rem;
+  }
+
+  .contact-box {
+    margin: 0;
+  }
+
+  .contact-sheet {
+    border-radius: 0;
+    padding: 1rem;
   }
 
   .contact-sheet > p {
