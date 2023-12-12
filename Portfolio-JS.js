@@ -39,6 +39,15 @@ hideElements.forEach((el) => observer.observe(el));
 const slowHideElements = document.querySelectorAll(".slow-hide");
 slowHideElements.forEach((el) => observer.observe(el));
 
+const slowerHideElements = document.querySelectorAll(".slower-hide");
+slowerHideElements.forEach((el) => observer.observe(el));
+
+const slowestHideElements = document.querySelectorAll(".slowest-hide");
+slowestHideElements.forEach((el) => observer.observe(el));
+
+const reverseHideElements = document.querySelectorAll(".reverse-hide");
+reverseHideElements.forEach((el) => observer.observe(el));
+
 // Modal Windows
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");

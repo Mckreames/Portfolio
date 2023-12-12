@@ -66,24 +66,35 @@
       <section class="id">
         <p class="title">Front-End Developer</p>
         <h1 class="name">William Butler</h1>
-        <p class="explanation">
+        <p class="explanation hide">
           <img
             src="./Icons/HTML.png"
-            class="icon hide"
+            class="icon slow-hide"
             alt="HTML Logo"
           />HTML<br />
-          <img src="./Icons/CSS.jpg" class="icon" alt="CSS Logo" />CSS<br />
+        </p>
+        <p class="explanation slow-hide">
+          <img
+            src="./Icons/CSS.jpg"
+            class="icon slower-hide"
+            alt="CSS Logo"
+          />CSS<br />
+        </p>
+        <p class="explanation slower-hide">
           <img
             src="./Icons/Javasript.png"
-            class="icon"
+            class="icon slowest-hide"
             alt="JS Logo"
           />JavaScript<br />
+        </p>
+        <p class="explanation slowest-hide">
           <img
             src="./Icons/Bootstrap-logo.png"
-            class="icon"
+            class="icon slowest-hide"
             alt="React JS Logo"
           />BootStrap<br />
         </p>
+
         <div class="resume-link">
           <a
             href="./Documents/William_Butler_Resume.pdf"
@@ -104,7 +115,7 @@
       <div class="cirkle7 display0"></div>
       <div class="cirkle8 display0"></div>
       <h2><span class="underline space-bottom">About Me</span></h2>
-      <p class="p-f-left left">
+      <p class="p-f-left left hide">
         Hi, my name is Will! I'm a passionate and dedicated web developer with a
         strong commitment to create outstanding web experiences. With over a
         year of self-taught experience in the industry, I've had the privilege
@@ -121,14 +132,13 @@
         loved the challenge.<br />
         <br />
       </p>
-      <p class="p-f-right right">
+      <p class="p-f-right right reverse-hide">
         My skill set spans a wide range of technologies and tools. I'm
-        proficient in front-end technologies like HTML5, CSS3, SASS, JavaScript,
-        TypeScript, Bootstrap, Redux, and React.JS. I even have experience
-        building multiple websites for real companies using WIX. On the
-        back-end, I have experience with Node.JS and have limited experience
-        using MySQL. I also have experience in the use of the version control
-        system, Git.<br />
+        proficient in front-end technologies like HTML5, CSS3, JavaScript, and
+        Bootstrap. I even have experience building multiple websites for real
+        companies using WIX. On the back-end, I have experience with Node.JS and
+        have limited experience using MySQL. I also have experience in the use
+        of the version control system, Git.<br />
         <br />
         Throughout my career, I've had the privilege of working with different
         groups of clients and industries. My portfolio showcases some of my most
@@ -154,7 +164,9 @@
       <div class="skware6 display0"></div>
       <div class="skware7 display0"></div>
       <div class="skware8 display0"></div>
-      <h1><span class="underline space-bottom special">Projects</span></h1>
+      <h1 class="projects-header">
+        <span class="underline space-bottom special">Projects</span>
+      </h1>
       <section class="projects">
         <section class="pr-ss-div hide">
           <a href="http://green-living-services.pages.dev/" target="_blank">
@@ -287,10 +299,10 @@
       <section class="contact-box">
         <img
           src="./Icons/logo-no-background.png"
-          class="contact-logo"
+          class="contact-logo hide"
           alt="A Picture of Me"
         />
-        <section class="contact-sheet">
+        <section class="contact-sheet reverse-hide">
           <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <button
