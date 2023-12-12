@@ -644,7 +644,7 @@ h2 {
 
 .information {
   width: 5%;
-  margin-top: -70px;
+  margin-top: 0;
   cursor: pointer;
 }
 
