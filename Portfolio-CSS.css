@@ -1091,6 +1091,27 @@ footer > a {
   color: rgb(193, 193, 193);
 }
 
+.slow-hide {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.3s;
+}
+
+.hide {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.slide {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+
+}
+
 
 @media (min-width: 1200px) and (max-width: 1399px) {
 
