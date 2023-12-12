@@ -223,10 +223,10 @@ h2 {
 .blob1 {
   background-color: goldenrod;
   border-radius: 150% 63% 99% 185% / 94% 85% 87% 100%;
-  top: 12rem;
-  left: 1rem;
-  width: 50rem;
-  height: 50rem;
+  top: 15%;
+  left: 1%;
+  width: 32%;
+  height: 61%;
   z-index: -3;
 }
 
@@ -1041,7 +1041,7 @@ footer > a {
 }
 
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (max-width: 1399px) {
 
   .me{
     width: 70%
