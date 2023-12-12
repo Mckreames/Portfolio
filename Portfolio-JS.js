@@ -1,24 +1,5 @@
 `use strict`;
 
-// Function to open the modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-// Function to close the modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
-// Add a click event listener to the trigger element
-document.getElementById("overlay-icon-L").addEventListener("click", openModal);
-
-let pigGameBtn = document.querySelector(`.pig-game-web-link`);
-
-pigGameBtn.addEventListener(`click`, function () {
-  alert(`This app isn't published due to it just being a tutorial I followed.`);
-});
-
 // JavaScript function to format the phone number
 function formatPhoneNumber() {
   // Get the input element

@@ -588,7 +588,6 @@ h2 {
 .project {
   padding: 4.5rem 0 0 0;
   background-color: black;
-  text-align: center;
   position: relative;
 }
 
@@ -612,147 +611,16 @@ h2 {
   text-align: center;
 }
 
-.modal {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-}
-
-.modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  background: #fff;
-  color: black;
-}
-
-.overlay-icons1 {
-  position: absolute;
-  top: 15%;
-  left: 27%;
-  padding: 4rem;
-  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
-  border-radius: 45%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.overlay-icons1:hover {
-  opacity: 1;
-}
-
-.overlay-icons2:hover {
-  opacity: 1;
-}
-
-.overlay-icons3:hover {
-  opacity: 1;
-}
-
-.overlay-icons4:hover {
-  opacity: 1;
-}
-
-.overlay-icons5:hover {
-  opacity: 1;
-}
-
-.overlay-icons2 {
-  position: absolute;
-  top: 15%;
-  left: 27%;
-  padding: 4rem;
-  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
-  border-radius: 45%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.overlay-icons3 {
-  position: absolute;
-  top: 15%;
-  left: 27%;
-  padding: 4rem;
-  background: radial-gradient(rgba(136, 136, 136), transparent 70%);
-  border-radius: 45%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.overlay-icons4 {
-  position: absolute;
-  top: 15%;
-  left: 27%;
-  padding: 4rem;
-  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
-  border-radius: 45%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.overlay-icons5 {
-  position: absolute;
-  top: 21%;
-  left: 29.8%;
-  padding: 4rem;
-  background: radial-gradient(rgb(136, 136, 136), transparent 70%);
-  border-radius: 45%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.overlay-icon-L {
-  width: 5rem;
-}
-
-.overlay-icon-R {
-  width: 5rem;
-}
-
-.overlay-icon-L:hover, 
-.overlay-icon-R:hover {
-  cursor: pointer;
-  background: radial-gradient(rgb(255, 255, 255) 70%, transparent 71%);
-}
-
 .pr-screenshot {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 5%;
-  transition: opacity 0.3s ease;
-  transition: border 0.7s ease;
+  transition: opacity 0.3s ease, border 0.7s ease;
   border: solid 3px white;
 }
 
 .pr-screenshot:hover {
   border: solid 3px goldenrod;
-}
-
-.pr-screenshot:hover ~ .overlay-icons1 {
-  opacity: 1;
-}
-
-.pr-screenshot:hover ~ .overlay-icons2 {
-  opacity: 1;
-}
-
-.pr-screenshot:hover ~ .overlay-icons3 {
-  opacity: 1;
-}
-
-.pr-screenshot:hover ~ .overlay-icons4 {
-  opacity: 1;
-}
-
-.pr-screenshot:hover ~ .overlay-icons5 {
-  opacity: 1;
 }
 
 .pr-screenshot-text {
@@ -764,54 +632,13 @@ h2 {
   text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
-.pr1-ss-div {
+.pr-ss-div {
   height: auto;
   position: relative;
   transition: opacity 0.7s ease;
 }
 
-.pr1-ss-div:hover {
-  opacity: .6;
-}
-
-.pr2-ss-div {
-  height: auto;
-  position: relative;
-  transition: opacity 0.7s ease;
-}
-
-.pr2-ss-div:hover {
-  opacity: .6;
-}
-
-.pr3-ss-div {
-  height: auto;
-  position: relative;
-  transition: opacity 0.7s ease;
-}
-
-.pr3-ss-div:hover {
-  opacity: .6;
-}
-
-.pr4-ss-div {
-  height: auto;
-  position: relative;
-  transition: opacity 0.7s ease;
-}
-
-.pr4-ss-div:hover {
-  opacity: .6;
-}
-
-.pr5-ss-div {
-  grid-column: span 2;
-  width: 50%;
-  position: relative;
-  transition: opacity 0.7s ease;
-}
-
-.pr5-ss-div:hover {
+.pr-ss-div:hover {
   opacity: .6;
 }
 
@@ -1265,31 +1092,6 @@ footer > a {
     padding: 1rem 6rem 4rem 6em;
   }
 
-  .overlay-icons1 {
-    top: 2%;
-    left: 15%;
-  }
-
-  .overlay-icons2 {
-    top: 2%;
-    left: 15%;
-  }
-
-  .overlay-icons3 {
-    top: 2%;
-    left: 15%;
-  }
-
-  .overlay-icons4 {
-    top: 2%;
-    left: 15%;
-  }
-
-  .overlay-icons5 {
-    top: 7%;
-    left: 21%;
-  }
-
 }
 
 @media (max-width: 1199px) {
@@ -1417,26 +1219,6 @@ footer > a {
 
   .projects {
     padding: 1rem 4rem 4rem 4rem;
-  }
-
-  .overlay-icons1 {
-    display: none;
-  }
-
-  .overlay-icons2 {
-    display: none;
-  }
-
-  .overlay-icons3 {
-    display: none;
-  }
-
-  .overlay-icons4 {
-    display: none;
-  }
-
-  .overlay-icons5 {
-    display: none;
   }
 
   .contact-box {
@@ -1648,26 +1430,6 @@ footer > a {
     padding: 1rem 4rem 4rem 4rem;
   }
 
-  .overlay-icons1 {
-    display: none;
-  }
-
-  .overlay-icons2 {
-    display: none;
-  }
-
-  .overlay-icons3 {
-    display: none;
-  }
-
-  .overlay-icons4 {
-    display: none;
-  }
-
-  .overlay-icons5 {
-    display: none;
-  }
-
   .projects {
     column-gap: 2rem;
     padding: 1rem
@@ -1869,30 +1631,6 @@ footer > a {
   .projects {
     padding: 1rem 4rem 4rem 4rem;
     display: block;
-  }
-
-  .pr5-ss-div {
-    width: 100%;
-  }
-
-  .overlay-icons1 {
-    display: none;
-  }
-
-  .overlay-icons2 {
-    display: none;
-  }
-
-  .overlay-icons3 {
-    display: none;
-  }
-
-  .overlay-icons4 {
-    display: none;
-  }
-
-  .overlay-icons5 {
-    display: none;
   }
 
   .projects {
