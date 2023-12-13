@@ -1360,11 +1360,15 @@ footer > a {
   }
 
   .nav-logo {
-    width: 10rem;
+    width: 25rem;
     margin-left: 0;
   }
 
   nav {
+    display: none;
+  }
+
+  .divider1{ 
     display: none;
   }
 
@@ -1378,7 +1382,25 @@ footer > a {
 
   .id {
     margin: auto;
+    width: 100%;
     background: rgba(0, 0, 0, 0.6);
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .name{
+    font-size: 75px;
+  }
+
+  .explanation {
+    font-size: 60px;
+  }
+
+  .icon {
+    margin-right: 6%;
+    margin-bottom: 4%;
   }
 
   .resume-link {
@@ -1387,6 +1409,7 @@ footer > a {
     border-left: goldenrod solid;
     border-right: goldenrod solid;
     text-align: center;
+    font-size: 28px;
   }
 
   .id > div > a {
@@ -1511,29 +1534,25 @@ footer > a {
     display: none;
   }
 
-  .icon {
-    width: 10%;
-  }
-
   .about-me {
     padding: 5%;
   }
 
   .p-f-left {
-    font-size: 1.2rem;
+    font-size: 30px;
+    width: 100%;
   }
 
   .p-f-right {
-    font-size: 1.2rem;
+    font-size: 30px;
+    width: 100%;
   }
-
+  
   .projects {
     padding: 1rem 4rem 4rem 4rem;
-  }
-
-  .projects {
     column-gap: 2rem;
-    padding: 1rem
+    padding: 1rem;
+    display: block;
   }
 
   .contact-logo {
