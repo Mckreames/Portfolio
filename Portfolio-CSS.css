@@ -655,24 +655,28 @@ h2 {
   display: none;
 }
 
-.modal {
+.dialog {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
-
-  background-color: white;
-  padding: 6rem;
-  border-radius: 5px;
+  background-color: rgb(43, 42, 42);
+  /* padding: 6rem; */
+  padding: 2rem 4rem 2rem 4rem;
+  border-radius: 20px;
+  border: solid 5px rgb(148, 147, 147);
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 999;
 }
 
-.modal1 {
-  width: 100%;
-  background-color: white;
-  z-index: 1000;
+.dialog-header {
+  font-size: 50px;
+  color: goldenrod;
+}
+
+.dialog-p {
+  font-size: 20px;
+  color: white;
 }
 
 .overlay {

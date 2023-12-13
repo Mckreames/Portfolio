@@ -49,19 +49,19 @@ const reverseHideElements = document.querySelectorAll(".reverse-hide");
 reverseHideElements.forEach((el) => observer.observe(el));
 
 // Modal Windows
-const modal = document.querySelector(".modal");
+const dialog = document.querySelector(".dialog");
 const overlay = document.querySelector(".overlay");
 const btnClosedModal = document.querySelector(".close-modal");
 const btnsOpenModal = document.querySelectorAll(".show-modal");
 console.log(btnsOpenModal);
 
 const openModal = function () {
-  modal.classList.remove(`hidden`);
+  dialog.classList.remove(`hidden`);
   overlay.classList.remove(`hidden`);
 };
 
 const closeModal = function () {
-  modal.classList.add(`hidden`);
+  dialog.classList.add(`hidden`);
   overlay.classList.add(`hidden`);
 };
 
@@ -76,7 +76,7 @@ overlay.addEventListener(`click`, closeModal);
 document.addEventListener(`keydown`, function (e) {
   console.log(e.key);
 
-  if (e.key === `Escape` && !modal.classList.contains(`hidden`)) {
+  if (e.key === `Escape` && !dialog.classList.contains(`hidden`)) {
     closeModal();
   }
 });
