@@ -26,7 +26,7 @@ document
 // Element Fade In
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
+    // console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("slide");
     }
@@ -53,7 +53,7 @@ const dialog = document.querySelector(".dialog");
 const overlay = document.querySelector(".overlay");
 const btnClosedModal = document.querySelector(".close-modal");
 const btnsOpenModal = document.querySelectorAll(".show-modal");
-console.log(btnsOpenModal);
+// console.log(btnsOpenModal);
 
 const openModal = function () {
   dialog.classList.remove(`hidden`);
@@ -74,7 +74,7 @@ btnClosedModal.addEventListener(`click`, closeModal);
 overlay.addEventListener(`click`, closeModal);
 
 document.addEventListener(`keydown`, function (e) {
-  console.log(e.key);
+  // console.log(e.key);
 
   if (e.key === `Escape` && !dialog.classList.contains(`hidden`)) {
     closeModal();
